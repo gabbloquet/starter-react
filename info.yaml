@@ -1,0 +1,5 @@
+# this file follow the info openapi 3 specification described here https://swagger.io/docs/specification/api-general-info/
+info:
+  title: "demo-dxp-react"
+  version: "1.13.0"
+  build_date: "%BUILD_DATE%"
