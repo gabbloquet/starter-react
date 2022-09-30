@@ -1,7 +1,7 @@
 {
-  "name": "demo-dxp-react",
+  "name": "starter-react",
   "private": true,
-  "version": "1.13.0",
+  "version": "0.0.0",
   "type": "commonjs",
   "scripts": {
     "start": "vite",

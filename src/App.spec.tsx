@@ -11,9 +11,9 @@ describe('App component', () => {
       configuration
     });
 
-    expect(await screen.findByText(/demo-dxp-react/i)).toBeInTheDocument();
+    expect(await screen.findByText(/Starter react/i)).toBeInTheDocument();
 
-    const titleElement = screen.getByText(/demo-dxp-react/i);
+    const titleElement = screen.getByText(/Starter react/i);
     expect(titleElement).toBeInTheDocument();
   });
 });

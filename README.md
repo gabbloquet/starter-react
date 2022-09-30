@@ -1,4 +1,4 @@
-# demo-dxp-react
+# Starter React
 
 ![image](https://user-images.githubusercontent.com/25029077/192529891-3123fe36-64eb-4f86-8900-41a44ccbcbd3.png)
 
@@ -68,12 +68,10 @@ npm run build
 
 Docker build:
 ```bash
-docker build -t demo-dxp-react:local .
+docker build -t starter-react:local .
 ```
 
 ### Secrets configuration
-
-For deployments, create/edit Vault secrets `demo-dxp-react/<env-type>`.
 
 Locally, you can edit the configuration directly on [public/conf.json](public/conf.json).
 
