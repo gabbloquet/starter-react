@@ -82,5 +82,6 @@ Locally, you can edit the configuration directly on [public/conf.json](public/co
  - [Github actions documentation](https://docs.github.com/en/actions)
  - [Vite documentation](https://vitejs.dev/guide/)
  - [React documentation](https://reactjs.org/tutorial/tutorial.html)
+ - [Dependabot documentation](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file)
 
 
