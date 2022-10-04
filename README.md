@@ -1,7 +1,5 @@
 # Starter React
 
-![image](https://user-images.githubusercontent.com/25029077/192529891-3123fe36-64eb-4f86-8900-41a44ccbcbd3.png)
-
 ## Getting started
 
 **Requirements**:
