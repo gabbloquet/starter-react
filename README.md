@@ -36,27 +36,6 @@ Next to that, you have interesting **tools which are already configure** :
 
 You can find [here](./doc/initialization.md) how this application has been initialized.
 
-## Contribution workflow
-
-**CI is based on [Adeo GitHub actions shared library](https://github.com/adeo/dxp--reusable-github-actions-workflows).**
-
-> Example: "I'm implementing a new feature or fixing a bug"
-- (YOU) Create a branch (feat/new-screen, fix/my-bug)
-- (YOU) Implement your revolutionary feature with your favorite IDE
-- (YOU) Commit/Push the branch (following: [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/))
-- (CI) Build: A build validates your changes
-    - It validates Angular code
-    - Create a docker image
-    - Publish it on JFrog
-    - Trigger a Turbine deployment if the tag is deployed in your dev env.
-- (YOU) Create a PR
-- (YOU) Review your wonderful code with your team
-- (YOU) `Merge Pull Request` (It will merge your branch on the `main` branch)
-- (CI) Build: A release is created
-- (CI) Build: The release is built and published (release performed following [semantic release](https://semantic-release.gitbook.io/semantic-release/)).
-
-You can find all Github Actions workflow in [.github/workflows directory](./.github/workflows).
-
 ### Build your application
 
 Local build (After that, you would be able to find it in [Dist folder](./dist)):
