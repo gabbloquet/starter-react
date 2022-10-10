@@ -1,4 +1,3 @@
-import '@testing-library/jest-dom';
 import { screen } from '@testing-library/react';
 import { Configuration } from './index';
 import { renderWithData } from '../../utils/test-utils';
