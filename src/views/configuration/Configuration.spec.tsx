@@ -10,7 +10,7 @@ describe('Configuration view', () => {
 
     const doc = screen.getByRole('article');
     expect(doc).toBeInTheDocument();
-    expect(doc.textContent).toContain('Vault');
+    expect(doc.textContent).toContain('secret manager');
   });
 
   it('loads configuration', async () => {
