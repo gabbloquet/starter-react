@@ -19,7 +19,7 @@ export const Contests = () => {
               <li data-testid={`contest-name-${contest.title}`} key={contest.title}>
                 <p>
                   {contest.title} :{' '}
-                  <a href={contest.url} className="mc-link" target="_blank" rel="noreferrer">
+                  <a href={contest.url} target="_blank" rel="noreferrer">
                     Link
                   </a>
                 </p>

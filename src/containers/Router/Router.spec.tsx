@@ -24,7 +24,7 @@ describe('Router component', () => {
     );
 
     const titleElement = screen.getByText(
-      /Welcome to the application StarterHub generated for you!/i
+      /Welcome to the wonderful REACT starter! 🚀/i
     );
     expect(titleElement).toBeVisible();
   });
