@@ -48,10 +48,6 @@ Docker build:
 docker build -t starter-react:local .
 ```
 
-### Secrets configuration
-
-Locally, you can edit the configuration directly on [public/conf.json](public/conf.json).
-
 ## Going further
 
  - [Github actions documentation](https://docs.github.com/en/actions)

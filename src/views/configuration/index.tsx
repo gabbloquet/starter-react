@@ -2,22 +2,10 @@ import { useConfiguration } from '../../configuration/configuration.service';
 import './configuration.scss';
 
 export const Configuration = () => {
-  const { data: configuration } = useConfiguration();
 
   return (
     <div className="Configuration">
       <h1>Documentation</h1>
-
-      <p role="article">
-        When deployed remotely, the configuration file could be provided vy your secret manager.
-        Locally, it's provided by the file `public/conf.json`.
-      </p>
-
-      <h2>Configuration</h2>
-
-      <p>The current configuration is shown bellow.</p>
-
-      <pre role="main">{JSON.stringify(configuration, null, 2)}</pre>
 
       <h2>Suggestion</h2>
 

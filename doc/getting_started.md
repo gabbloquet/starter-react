@@ -55,8 +55,3 @@ For global style, you can create a `style` directory. Don't forget to add create
 
 Finally, views or pages could be placed in [views directory](../src/views).  
 You can find some example here, `contests` with API consumption, `testing` with state usage or `configuration` with configuration consumption.
-
-## Environment variables
-
-You can add an environment variable in [conf.json](../public/conf.json) file.  
-To consume it you can use `useConfiguration` hook, like in [`App.tsx`](../src/App.tsx) component.
