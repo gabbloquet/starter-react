@@ -2,7 +2,6 @@ import { useConfiguration } from '../../configuration/configuration.service';
 import './configuration.scss';
 
 export const Configuration = () => {
-
   return (
     <div className="Configuration">
       <h1>Documentation</h1>

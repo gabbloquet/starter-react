@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "lint": "eslint src",
     "lint:fix": "eslint --fix",
-    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,scss,md,json}'",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@tanstack/react-query": "4.10.3",

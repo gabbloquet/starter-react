@@ -23,9 +23,7 @@ describe('Router component', () => {
       </MemoryRouter>
     );
 
-    const titleElement = screen.getByText(
-      /Welcome to the wonderful REACT starter! 🚀/i
-    );
+    const titleElement = screen.getByText(/Welcome to the wonderful REACT starter! 🚀/i);
     expect(titleElement).toBeVisible();
   });
 });
