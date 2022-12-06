@@ -1,24 +1,16 @@
-import { screen } from '@testing-library/react';
-import { Configuration } from './index';
-import { renderWithData } from '../../utils/test-utils';
+import { render, screen } from "@testing-library/react";
+import { Configuration } from "./index";
 
 describe('Configuration view', () => {
   it('shows configuration doc', () => {
-    renderWithData(<Configuration />, {
-      configuration: { env_description: 'value123' }
-    });
+    render(<Configuration />);
 
-    const doc = screen.getByRole('article');
-    expect(doc).toBeInTheDocument();
-    expect(doc.textContent).toContain('secret manager');
-  });
+    const mainTitle = screen.getByRole('heading', { level: 1 });
+    expect(mainTitle).toBeVisible();
+    expect(mainTitle).toHaveTextContent('Documentation');
 
-  it('loads configuration', async () => {
-    renderWithData(<Configuration />, {
-      configuration: { env_description: 'value123' }
-    });
-    const conf = screen.getByRole('main');
-    expect(conf).toBeInTheDocument();
-    expect(conf.textContent).toContain('value123');
+    const suggestion = screen.getByRole('heading', { level: 2 });
+    expect(suggestion).toBeVisible();
+    expect(suggestion).toHaveTextContent('Suggestion');
   });
 });

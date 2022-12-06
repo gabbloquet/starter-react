@@ -1,4 +1,3 @@
-import { useConfiguration } from '../../configuration/configuration.service';
 import './configuration.scss';
 
 export const Configuration = () => {
