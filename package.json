@@ -51,7 +51,7 @@
     "jest-environment-jsdom": "29.3.1",
     "jest-sonar-reporter": "2.0.0",
     "nock": "13.2.9",
-    "prettier": "2.7.1",
+    "prettier": "2.8.5",
     "react-test-renderer": "18.2.0",
     "ts-jest": "^29.0.3",
     "ts-node": "^10.9.1",
