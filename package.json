@@ -30,7 +30,7 @@
     "@storybook/addon-links": "^6.5.13",
     "@storybook/builder-vite": "^0.2.5",
     "@storybook/preset-scss": "^1.0.3",
-    "@storybook/react": "^6.5.13",
+    "@storybook/react": "^7.0.2",
     "@storybook/testing-library": "^0.0.13",
     "@tanstack/react-query-devtools": "4.11.0",
     "@testing-library/jest-dom": "5.16.5",
