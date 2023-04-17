@@ -32,7 +32,7 @@
     "@storybook/preset-scss": "1.0.3",
     "@storybook/react": "7.0.2",
     "@storybook/testing-library": "0.1.0",
-    "@tanstack/react-query-devtools": "4.29.0",
+    "@tanstack/react-query-devtools": "4.29.3",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "14.0.0",
     "@types/react": "18.0.33",
