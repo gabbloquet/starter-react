@@ -14,7 +14,7 @@ npm install
 npm start
 ```
 
-Congratulations ! Your application is running on [http://localhost:4200/](http://localhost:4200/). 🎉
+Congratulations ! Your application is running on [http://localhost:5173/](http://localhost:5173/) 🎉
 
 [Need help to get started ?](./doc/getting_started.md)
 
