@@ -23,7 +23,7 @@
     "sass": "1.66.1"
   },
   "devDependencies": {
-    "@babel/core": "7.22.10",
+    "@babel/core": "7.23.2",
     "@storybook/addon-essentials": "7.3.2",
     "@storybook/addon-interactions": "7.3.2",
     "@storybook/addon-links": "7.3.2",
