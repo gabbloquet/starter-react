@@ -1,5 +1,4 @@
-import React from 'react';
-import { useContests } from '../../services/contest/contest.service';
+import { Contest, useContests } from '../../services/contest/contest.service';
 import Loader from '../components/Loader';
 
 export const Contests = () => {
@@ -11,11 +10,11 @@ export const Contests = () => {
         <Loader data-testid="contests-loader" />
       ) : (
         <>
-          {/*@ts-ignore*/}
           <h1>Contests</h1>
           <p>You can find here all next contest events :</p>
           <ul>
-            {contests?.map((contest) => (
+            {/*@ts-ignore*/}
+            {contests?.map((contest: Contest) => (
               <li data-testid={`contest-name-${contest.title}`} key={contest.title}>
                 <p>
                   {contest.title} :{' '}

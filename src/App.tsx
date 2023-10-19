@@ -1,5 +1,5 @@
-import { BrowserRouter } from "react-router-dom";
-import { Router } from "./containers/Router";
+import { BrowserRouter } from 'react-router-dom';
+import { Router } from './containers/Router';
 import './index.scss';
 
 const App = () => (

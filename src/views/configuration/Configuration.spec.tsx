@@ -1,5 +1,5 @@
-import { render, screen } from "@testing-library/react";
-import { Configuration } from "./index";
+import { render, screen } from '@testing-library/react';
+import { Configuration } from './index';
 
 describe('Configuration view', () => {
   it('shows configuration doc', () => {

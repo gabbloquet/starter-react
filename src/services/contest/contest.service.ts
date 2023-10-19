@@ -16,4 +16,5 @@ export const getContests = async (): Promise<Array<Contest>> => {
   }));
 };
 
+// @ts-ignore
 export const useContests = () => useQuery(['contests'], getContests);
