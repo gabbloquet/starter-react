@@ -13,7 +13,6 @@ export const Contests = () => {
           <h1>Contests</h1>
           <p>You can find here all next contest events :</p>
           <ul>
-            {/*@ts-ignore*/}
             {contests?.map((contest: Contest) => (
               <li data-testid={`contest-name-${contest.title}`} key={contest.title}>
                 <p>
