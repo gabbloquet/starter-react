@@ -24,12 +24,14 @@ Congratulations ! Your application is running on [http://localhost:5173/](http:/
 
 ## Your stack
 
-This starter has been initialized with [Vite](https://vitejs.dev/) which is a build tool that aims to provide a faster and leaner development experience for modern web projects. (And more precisely [react-ts](https://stackblitz.com/edit/vitejs-vite-n1nea3?file=index.html&terminal=dev) template).
+This starter has been initialized with [Vite](https://vitejs.dev/) which is a build tool that aims to provide a faster
+and leaner development experience for modern web projects. (And more
+precisely [react-ts](https://stackblitz.com/edit/vitejs-vite-n1nea3?file=index.html&terminal=dev) template).
 
 Next to that, you have interesting **tools which are already configure** :
 
 | Tools                                                                                  | Purpose                                                                                             | Informations                                               |
-| :------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- | :--------------------------------------------------------- |
+|:---------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
 | [Eslint](https://eslint.org/) & [Prettier](https://prettier.io/)                       | **Linting** and **formatting**                                                                      | You can configure your IDE by adding these tools libraries |
 | [Jest](https://jestjs.io/)                                                             | Delightful JavaScript **Testing Framework** with a focus on simplicity.                             | Examples on `**.spec.ts` or `**.spec.tsx` files            |
 | [React Testing library](https://testing-library.com/docs/react-testing-library/intro/) | DOM testing library to reproduce user behavior with tests                                           | Examples on `**.spec.tsx` files                            |
@@ -46,10 +48,10 @@ Local build (After that, you would be able to find it in [Dist folder](./dist)):
 npm run build
 ```
 
-Docker build:
+Build with docker:
 
 ```bash
-docker build -t starter-react:local .
+docker compose up
 ```
 
 ## Going further
