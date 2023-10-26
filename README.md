@@ -14,7 +14,7 @@ npm install
 npm start
 ```
 
-Congratulations ! Your application is running on [http://localhost:5173/](http://localhost:5173/) 🎉
+Congratulations! Your application is running on [http://localhost:5173/](http://localhost:5173/) 🎉
 
 [Need help to get started ?](./doc/getting_started.md)
 
@@ -51,8 +51,19 @@ npm run build
 Build with docker:
 
 ```bash
+docker build -t starter-react .
+```
+
+### Start your application
+
+Your [Dockerfile](./Dockerfile) build and start our application with `nginx`.  
+With your [Docker-compose](./docker-compose.yml) file, you trigger it and expose port.
+
+```bash
 docker compose up
 ```
+
+Congratulations! Your application is running on [http://localhost/](http://localhost/) 🎉
 
 ## Going further
 
