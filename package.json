@@ -25,7 +25,7 @@
   "devDependencies": {
     "@babel/core": "7.23.2",
     "@babel/preset-react": "7.22.15",
-    "@storybook/addon-essentials": "7.5.2",
+    "@storybook/addon-essentials": "7.5.3",
     "@storybook/addon-interactions": "7.5.2",
     "@storybook/addon-links": "7.5.2",
     "@storybook/blocks": "7.5.2",
