@@ -6,7 +6,7 @@ import { Contest } from '../../services/contest/contest.service';
 import { screen } from '@testing-library/react';
 import { contestsDtoExample } from '../../services/contest/contest.dto';
 
-axios.defaults.adapter = require('axios/lib/adapters/http');
+axios.defaults.adapter = 'http';
 
 describe('Contests view', () => {
   beforeEach(() => {

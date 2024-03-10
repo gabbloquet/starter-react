@@ -3,7 +3,7 @@ import axios from 'axios';
 import { getContests } from './contest.service';
 import { contestsDtoExample } from './contest.dto';
 
-axios.defaults.adapter = require('axios/lib/adapters/http');
+axios.defaults.adapter = 'http';
 
 describe('Contests service', () => {
   it('gets contests Kontests API', async () => {
